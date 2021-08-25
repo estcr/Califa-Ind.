@@ -1,0 +1,100 @@
+/*hoja index*/
+* {
+  margin: 0%;
+  padding: 0%;
+  background-color: black !important;
+}
+
+.body {
+  font-family: 'Cookie', cursive !important;
+  color: deeppink;
+  background-color: black;
+}
+
+.menu {
+  font-size: 25px;
+  color: deeppink;
+}
+
+.texto {
+  background-color: violet;
+}
+
+.texto__titulo1 {
+  color: gold;
+}
+
+.texto__titulo2 {
+  color: honeydew;
+}
+
+aside {
+  font-size: 30px;
+  text-align: center;
+}
+
+.videoMain {
+  margin-top: 30px;
+}
+
+.gustos__titulo {
+  font-size: 50px;
+}
+
+.videos__video1 {
+  border-style: groove;
+  border-color: deeppink;
+  border-width: 25px;
+}
+
+.videos__video2 {
+  border-style: groove;
+  border-color: deeppink;
+  border-width: 25px;
+}
+
+.videos__video3 {
+  border-style: groove;
+  border-color: deeppink;
+  border-width: 25px;
+}
+
+.videos__video4 {
+  border-style: groove;
+  border-color: deeppink;
+  border-width: 25px;
+}
+
+.footer__rellenar {
+  background-color: deeppink;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.footer__suscripcion {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+@media (min-width: 600px) {
+  div.titulo {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  div.titulo {
+    font-size: 30px;
+  }
+}
+
+/* hoja team*/
+.h2Team {
+  font-size: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+
+/*# sourceMappingURL=main.css.map */

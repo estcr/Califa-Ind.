@@ -1,0 +1,124 @@
+/*hoja index*/
+*{
+    margin: 0%;
+    padding:0%;
+    background-color: black !important;
+}
+
+.body {
+    font-family: 'Cookie', cursive !important;
+    color: deeppink;
+    background-color: black;
+}
+.menu{
+    font-size: 25px;
+    color: deeppink;
+}
+
+.califaHome:hover {
+    transform: rotate(-45deg);
+}
+
+.texto{
+    background-color: violet;
+    &__titulo1{
+        color: gold;
+    }
+    &__titulo2{
+        color: honeydew;
+    }
+}
+aside{
+    font-size: 30px;
+    text-align: center;
+}
+.videoMain{
+    margin-top: 30px;
+     }
+     
+.gustos{
+    &__titulo{
+        font-size: 50px;
+    }
+}
+
+.videos{
+    &__video1{
+        border-style: groove;
+    border-color: deeppink;
+    border-width: 25px;
+    }
+    &__video2{
+        border-style: groove;
+    border-color: deeppink;
+    border-width: 25px;
+    }       
+    &__video3{
+        border-style: groove;
+    border-color: deeppink;
+    border-width: 25px;
+    }    
+    &__video4{
+        border-style: groove;
+    border-color: deeppink;
+    border-width: 25px;
+    }
+}
+.footer {
+    &__rellenar{
+        color: deeppink;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    &__suscripcion {
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width: 600px) {
+    div.titulo {
+    font-size: 80px;
+    }
+}
+@media (max-width: 600px) {
+    div.titulo {
+    font-size: 30px;
+    }
+}
+
+/* hoja team*/
+.h2Team{
+    font-size: 50px;
+    display: flex;
+}
+.benshi1:hover{
+    width: 100%;
+    height: 100%;
+    transition: height 5s, width 5s;       
+}
+
+/*hoja contacto*/
+.input{
+    color: deeppink;
+    font-weight: bold
+}
+
+/*hoja eventos*/
+$ancho: 720px;
+$alto: 1040px;
+
+
+.video1{
+    height: ($ancho/2)-50;;
+    width: ($ancho/2)-50;
+}
+.video2{
+    height: ($ancho/2)-50;;
+    width: ($ancho/2)-50;
+}
+.video3{
+    height: ($ancho/2)-50;;
+    width: ($ancho/2)-50;
+}
